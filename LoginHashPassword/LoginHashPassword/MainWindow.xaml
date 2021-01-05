@@ -1,0 +1,18 @@
+﻿<Window x:Class="LoginHashPassword.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginHashPassword"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="usernameTXT" Height="23" Margin="200,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="393"/>
+        <Button x:Name="LoginBTN" Content="Login" HorizontalAlignment="Left" Margin="200,290,0,0" VerticalAlignment="Top" Width="140" FontSize="24" Click="LoginBTN_Click"/>
+        <Button x:Name="RegisterBTN" Content="Register" HorizontalAlignment="Left" Margin="453,290,0,0" VerticalAlignment="Top" Width="140" FontSize="24" Click="RegisterBTN_Click"/>
+        <Label x:Name="usernameLBL" Content="Username:" HorizontalAlignment="Left" Margin="129,96,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="passwordLBL" Content="Password:" HorizontalAlignment="Left" Margin="129,139,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordTXT" HorizontalAlignment="Left" Margin="200,142,0,0" VerticalAlignment="Top" Width="393" Height="23"/>
+
+    </Grid>
+</Window>
